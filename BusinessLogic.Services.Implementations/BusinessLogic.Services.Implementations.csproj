@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Cells" Version="24.3.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic.Contracts\BusinessLogic.Contracts.csproj" />
+    <ProjectReference Include="..\BusinessLogic.Services.Abstractions\BusinessLogic.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\DataAccess.Repositories.Abstractions\DataAccess.Repositories.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
